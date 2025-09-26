@@ -1,10 +1,20 @@
 import { BackgroundImage } from '../styles/loginScreen.styles';
+import { ModalLogin } from '../styles/loginScreen.styles';
+import { LogoImage } from '../styles/loginScreen.styles';
+import { LimitedContainer } from '../styles/loginScreen.styles';
+import { ContainerLoginScreen } from '../styles/loginScreen.styles';
 
 const LoginScreen = () => {
   return (
-    <div>
+    <ContainerLoginScreen>
       <BackgroundImage src="./BackgroundImage.png" />
-    </div>
+      <ModalLogin>
+        <LogoImage src="./logo.png" />
+        <LimitedContainer>
+          <input type="text" />
+        </LimitedContainer>
+      </ModalLogin>
+    </ContainerLoginScreen>
   );
 };
 
