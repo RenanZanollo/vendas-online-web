@@ -1,5 +1,6 @@
-import LoginScreen from './modules/login';
 import './App.css';
+
+import LoginScreen from './modules/login';
 
 function App() {
   return (

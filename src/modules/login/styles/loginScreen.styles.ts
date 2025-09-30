@@ -16,12 +16,6 @@ export const BackgroundImage = styled.img`
   object-fit: cover;
 `;
 
-export const LogoImage = styled.img`
-  height: 50px;
-  width: 60px;
-  top: 0;
-`;
-
 export const ModalLogin = styled.div`
   background-color: #e5edff;
   border: 1px solid rgba(144, 144, 144, 0.8);
@@ -37,7 +31,7 @@ export const ModalLogin = styled.div`
   box-sizing: border-box;
   padding: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evently;
   flex-direction: column;
   align-items: center;
 
@@ -50,5 +44,8 @@ export const LimitedContainer = styled.div`
   max-width: 300px;
   display: flex;
   justify-content: center;
-  background-color: blue;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  gap: 23px;
 `;

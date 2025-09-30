@@ -1,17 +1,21 @@
-import { BackgroundImage } from '../styles/loginScreen.styles';
-import { ModalLogin } from '../styles/loginScreen.styles';
-import { LogoImage } from '../styles/loginScreen.styles';
-import { LimitedContainer } from '../styles/loginScreen.styles';
-import { ContainerLoginScreen } from '../styles/loginScreen.styles';
+import Input from '../../../share/inputs/input/Input';
+import {
+  BackgroundImage,
+  ModalLogin,
+  LimitedContainer,
+  ContainerLoginScreen,
+} from '../styles/loginScreen.styles';
+import Logo from '../../../share/logo/Logo';
 
 const LoginScreen = () => {
   return (
     <ContainerLoginScreen>
       <BackgroundImage src="./BackgroundImage.png" />
       <ModalLogin>
-        <LogoImage src="./logo.png" />
+        <Logo />
         <LimitedContainer>
-          <input type="text" />
+          <Input placeholder="Login" />
+          <Input placeholder="Password" />
         </LimitedContainer>
       </ModalLogin>
     </ContainerLoginScreen>
