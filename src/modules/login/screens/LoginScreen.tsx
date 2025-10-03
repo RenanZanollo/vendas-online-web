@@ -1,20 +1,20 @@
+import ButtonHome from '../../../share/buttons/button-home/ButtonHome';
+import CheckBox from '../../../share/checkbox/CheckBox';
 import Input from '../../../share/inputs/input/Input';
+import Logo from '../../../share/logo/Logo';
 import {
   BackgroundImage,
-  ModalLogin,
-  LimitedContainer,
   ContainerLoginScreen,
+  ForgotPassword,
   KeepForgetContainer,
   KeepLoggedText,
-  ForgotPassword,
+  LimitedContainer,
+  ModalLogin,
   SemCheckBox,
   SignUpContainer,
-  SignUpText,
   SignUpLink,
+  SignUpText,
 } from '../styles/loginScreen.styles';
-import Logo from '../../../share/logo/Logo';
-import CheckBox from '../../../share/checkbox/CheckBox';
-import ButtonHome from '../../../share/buttons/button-home/ButtonHome';
 const LoginScreen = () => {
   return (
     <ContainerLoginScreen>
