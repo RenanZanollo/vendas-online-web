@@ -1,12 +1,10 @@
-import type { InputHTMLAttributes } from 'react';
 import { CustomInput } from './input.styles.ts';
+import type { InputProps as AntdInputProps } from 'antd/es/input';
 
-interface InputProps {
-  placeholder?: string;
-}
+interface InputProps extends AntdInputProps {}
 
-const InputLogin = ({ placeholder, ...props }: InputProps) => {
-  return placeholder && <CustomInput placeholder={placeholder} />;
+const InputLogin = ({ ...props }: InputProps) => {
+  return <CustomInput {...props} />;
 };
 
 export default InputLogin;

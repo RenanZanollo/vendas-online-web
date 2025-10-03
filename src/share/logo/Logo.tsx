@@ -1,4 +1,4 @@
-import { LogoImage, BoxInput, TitleLogo } from './logo.styles';
+import { BoxInput, LogoImage, TitleLogo } from './logo.styles';
 
 const Logo = () => {
   return (

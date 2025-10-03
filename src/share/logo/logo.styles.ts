@@ -14,9 +14,9 @@ export const BoxInput = styled.div`
 `;
 
 export const TitleLogo = styled.h3`
-  font-family: 'Helvetica';
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 15px;
   line-height: 21px;
 `;
